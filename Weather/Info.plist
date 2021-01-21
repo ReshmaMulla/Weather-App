@@ -20,6 +20,17 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Weather App Use your location to get Weather Updates </string>
+	<key>NSLocationUsageDescription</key>
+	<string>Weather App Use your location to get Weather Updates </string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Weather App Use your location to get Weather Updates </string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
